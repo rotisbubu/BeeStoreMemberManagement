@@ -1,0 +1,197 @@
+/* LIST MEMBER PAGE STYLING */
+
+/* Header styling */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+/* Container styling */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.header {
+  display: block;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.btn-create {
+  background-color: #fc88cd;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-create:hover {
+  background-color: #bb5190;
+}
+
+.btn-update,
+.btn-delete {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.btn-update {
+  background-color: #47bd63;
+  color: white;
+}
+
+.btn-update:hover {
+  background-color: #218838;
+}
+
+.btn-delete {
+  background-color: #f67b87;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+/* Table style */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #e8f0fe;
+  transition: 0.3s ease;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+  width: 1%; /* ID */
+  text-align: center;
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  width: 15%; /* Name */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+  width: 10%; /* Phone */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+  width: 10%; /* Email */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+  width: 5%; /* Action */
+  text-align: center;
+}
+
+/* CREATE & UPDATE PAGE SETTING */
+.container-form {
+  width: 30%;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-box {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Labels */
+.form-box label {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn-submit-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn-submit {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #fc88cd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #b64a8b;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
