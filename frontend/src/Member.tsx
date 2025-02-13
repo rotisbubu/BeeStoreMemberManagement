@@ -3,7 +3,6 @@ import axios from "axios";
 import "./Member.css";
 import { Link } from "react-router-dom";
 
-// Define the MemberType interface
 interface MemberType {
   CustomerID: number;
   CustomerName: string;
